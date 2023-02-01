@@ -8,14 +8,14 @@
 .one--column {
     width: 100%;
     padding: 2%;
-    /* background-color: aqua; */
+    background-color: #fff;
 
 }
 
 .two--column {
     width: 100%;
     padding: 2%;
-    /* background-color: burlywood; */
+    background-color:#fff;
     margin-top: 3%;
 
 }
@@ -23,7 +23,7 @@
 .three--column {
 
     width: 100%;
-    /* background-color: greenyellow; */
+    background-color: #fff;
     margin-top: 3%;
     padding: 2%;
 }
@@ -31,7 +31,7 @@
 .four--column {
 
     width: 100%;
-    /* background-color: rgb(201, 225, 164); */
+    background-color: rgb(201, 225, 164);
     margin-top: 3%;
     padding: 2%;
 }
@@ -372,7 +372,7 @@ ul li:nth-child(1) {
     .two--column {
         width: 100%;
         padding: 6%;
-        /* background-color: burlywood; */
+        background-color: burlywood;
         margin-top: 3%;
 
 
@@ -464,7 +464,7 @@ ul li:nth-child(1) {
     .four--column {
 
         width: 100%;
-        /* background-color: rgb(201, 225, 164); */
+        background-color: rgb(201, 225, 164);
         margin-top: 3%;
         padding: 6%;
     }
