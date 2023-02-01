@@ -499,13 +499,7 @@
         align-items: center;
     
     }
-    .open{
-        display: flex;
-    }
     
-    .close{
-        display: none;
-    }
 }
 
 @media screen and (max-width :547px){
@@ -582,6 +576,16 @@
         padding-left: 2%;
         margin-left:5%;
     
+    }
+    .left--sidebar{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    
+    .close{
+        display: flex;
     }
 
     #search-input {
@@ -661,6 +665,16 @@
         
         
         
+    }
+    .left--sidebar{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    
+    .close{
+        display: flex;
     }
 
 

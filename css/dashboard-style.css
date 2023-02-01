@@ -457,6 +457,7 @@ ul li {
 
 }
 @media screen and (max-width:658px){
+  
     #data-graph {
         width:28rem;
     }
@@ -485,6 +486,16 @@ ul li {
     }
 }
 @media screen and (max-width:500px){
+    .left--sidebar{
+        display: none;
+    }
+    .open{
+        display: none;
+    }
+    
+    .close{
+        display: flex;
+    }
     #data-graph {
         width:28rem;
     }
@@ -505,12 +516,16 @@ ul li {
     }
     .insights {
         display: grid;
-        grid-template-columns:100%;
-        grid-template-rows: 20% 20% 20% 20% 20%;
-        column-gap:20%;
-        row-gap: 5%;
-        
+        grid-template-columns:100% 100%;
+        grid-template-rows: 20% 20% 20%;
+        column-gap:100%;
+        row-gap: 30%;
+        margin-left: 50%;
     }
+    .insight{
+        width: 100%;
+    }
+   
     .charts {
     
         margin-top:10rem;
